@@ -23,7 +23,7 @@ class QuizInterface:
         false_image_tk = ImageTk.PhotoImage(false_image)
 
         # --------------------------- main window ---------------------------
-        self.window.title("Gero's Quiz App")
+        self.window.title("Gero's Quizzler App")
         self.window.config(bg=THEME_COLOR, pady=20, padx=20)
 
         # --------------------------- label ---------------------------
